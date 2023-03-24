@@ -1,0 +1,160 @@
+.colapsed-election-card {
+    display: flex;
+    padding: 16px;
+    height: 30px;
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: 16px 10px 10px 16px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+
+    justify-content: space-between;
+}
+
+.expanded-election-card {
+    display: flex;
+    padding: 16px;
+    min-height: 30px;
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: 16px 10px 10px 16px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+
+    flex-direction: column;
+    
+}
+
+.line-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.expanded-election-card-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.election-main-frame {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #e0e1dd;
+    align-items: center;
+    flex-direction: column;
+}
+
+.standard-election {
+    display: flex;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #555;
+    justify-content: center;
+    color: #fafafa;
+}
+
+.started-election {
+    display: flex;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #007e00;
+    justify-content: center;
+    color: #fafafa;
+}
+
+.finished-election {
+    display: flex;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #c54f00;
+    justify-content: center;
+    color: #fafafa;
+}
+
+.candidates-card {
+    display: flex;
+    padding: 16px;
+    min-height: 30px;
+    background-color: #FFFFFF;
+    width: 95%;
+    margin: 16px 10px 10px 16px;
+    border-radius: 5px;
+    flex-direction: column;
+    border: 1px solid #F3F3F3;
+    gap: 8px;
+}
+
+.candidate {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #F4F4F4;
+    padding: 8px;
+    align-items: center;
+}
+
+.new-election-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 85%;
+    margin-top: 16px;
+}
+
+.new-election-modal {
+    display: flex;
+    background-color: #FFF;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.modal-line {
+    display: flex;
+    gap: 16px;
+
+    width: 80%;
+}
+
+.candidates-checkboxes {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C0C0C0;
+    gap: 8px;
+    margin-top: 32px;
+    padding: 16px;
+    border-radius: 5px;
+    overflow-y: auto;
+
+    width: 450px;
+    height: 230px;
+
+    max-height: 230px;
+}
+
+.button-box {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+
+    margin-top: 16px;
+}

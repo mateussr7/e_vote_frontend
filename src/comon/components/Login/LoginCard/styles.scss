@@ -1,0 +1,31 @@
+.main-frame {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    
+    height: 550px;
+    width: 500px;
+
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.main-frame h2 {
+    margin: 80px 0px 30px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.main-frame .input {
+    margin-bottom: 25px;
+}
+
+
+.button-case {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
